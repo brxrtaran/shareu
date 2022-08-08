@@ -25,11 +25,11 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-	await event.reply_photo("https://telegra.ph/file/08ce29db269b279061d94.jpg",
+	await event.reply_photo("https://telegra.ph/file/80db808a3bf82f9570b8a.png",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies"),
-                                     InlineKeyboardButton("Our Group", url="https://t.me/iPopcornMovieGroup")],
+                                    [InlineKeyboardButton("➕ ADD ME IN YOUR GROUP ➕", url="https://t.me/Mdisk_search_tg_bot?startgroup=true"),
+                                    ],
                                     [InlineKeyboardButton("Help", callback_data="Help_msg"),
                                      InlineKeyboardButton("About", callback_data="About_msg")]]))
 
