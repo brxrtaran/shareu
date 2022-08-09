@@ -38,8 +38,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies"),
-             InlineKeyboardButton("Our Group", url="https://t.me/iPopcornMovieGroup"), 
+            [InlineKeyboardButton("Our Channel", url="https://t.me/ax_botz"),
+             InlineKeyboardButton("Our Group", url="https://t.me/astroflix"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -77,11 +77,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies"),
-						InlineKeyboardButton("Our Group", url="https://t.me/iPopcornMovieGroup")
+						InlineKeyboardButton("Our Channel", url="https://t.me/ax_botz"),
+						InlineKeyboardButton("dont click ", url="https://telegra.ph/file/ea4c31c3907814634c9df.jpg")
 					],
 					[
-						InlineKeyboardButton("Developer", url="https://t.me/RoyalKrrishna"),
+						InlineKeyboardButton("Developer", url="https://t.me/inform_adminzBOT"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -96,10 +96,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/iP_Movies")
+						InlineKeyboardButton("Our Channel", url="https://t.me/ax_botz")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/RoyalKrrishna"),
+						InlineKeyboardButton("Owner", url="https://t.me/inform_adminzBOT"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -117,8 +117,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/RoyalKrrishna"),
-						InlineKeyboardButton("Channel", url="https://t.me/iP_Movies")
+						InlineKeyboardButton("Support", url="https://t.me/inform_adminzBOT"),
+						InlineKeyboardButton("Channel", url="https://t.me/ax_botz")
 					]
 				]
 			),
